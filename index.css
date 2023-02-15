@@ -1,0 +1,61 @@
+.nav-image{
+    background-image: url('nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.nav-sticky{
+    position: fixed;
+}
+
+h1,h2,h3,p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-items{
+   
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+
+.elev:hover{
+    transform: scalex(1.1) scaleY(1.1);
+   
+    
+}
+.elev{
+    transition: all 0.4s ease-out;
+
+}
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    background-color: black;
+
+    text-align: center;
+    text-decoration: none;
+  }
+.prov{
+    width: 26%;
+}
+  @media only screen and (max-width: 600px) {
+  .pro{
+    flex-direction: column;
+    gap: 50px;
+ }
+ .prov{
+    width: 100%;
+    
+ }
+ .nav-sticky{
+    flex-direction: column;
+ }
+  }
